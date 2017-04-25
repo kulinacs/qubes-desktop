@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Browse in Disposable VM
+Comment=Open a suspicious link in a Disposable VM
+Comment[de]=Im Internet surfen mit DVM
+Comment[fi]=Selaa Internetin WWW-sivuja DVM:ssä
+Comment[sv]=Surfa på webben i DVM
+GenericName=Web Browser
+GenericName[de]=Webbrowser
+GenericName[fi]=WWW-selain
+GenericName[sv]=Webbläsare
+TryExec=/usr/bin/qvm-open-in-dvm
+Exec=/usr/bin/qvm-open-in-dvm %u
+X-MultipleArgs=false
+Icon=/usr/share/icons/Qubes/dispvm-gray.png
+Terminal=false
+Categories=Qubes;Utility;Network;WebBrowser;
+MimeType=x-scheme-handler/unknown;x-scheme-handler/about;text/html;text/xml;application/xhtml+xml;application/xml;application/vnd.mozilla.xul+xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;
